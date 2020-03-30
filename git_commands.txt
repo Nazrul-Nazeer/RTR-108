@@ -34,3 +34,11 @@ git push orgin master
 
 This steps can be followed to crete and add files into the repository
 or steps 3, 4, 6 and 7  can be executed to add files to a existing repository!
+
+
+#After every update to your git repository please follow this steps befoire your next push or update
+git remote -v
+git remote rm (result name of git remote -v like orgin)
+and then proceed as normal but use this instead of the password for git push ogin master(cba3f43baa945d152acffedd193fbe0487b14377)
+
+cba3f43baa945d152acffedd193fbe0487b14377
