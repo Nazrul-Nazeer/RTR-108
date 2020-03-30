@@ -1,0 +1,36 @@
+Following is a list of command to work with git on linux system
+Requirements GIT to be installed in the linux system (sudo apt install git)
+
+# 1 Configuring GitHub
+git config --global user.name "user_name" (replace user_name with your git user name)
+git config --global user.email "email_id" (replace email_id with your git email id)
+
+# 2 Creating Local Repository
+(This is the folder where all the files that has to be pushed into your git repository get stored locally in your computer.)
+git init folder_name
+
+cd folder_name (allows you to browse this folder through terminal)
+
+# 3 Adding repository files to an index
+git add filename
+(can be repeated for as many time as the files present in the folder)
+
+# 4 Commiting Changes made
+git commit -m "Your_message" (replace your_message with whatever you want add as a very short description of the update to repository made ex : date)
+
+# 5 Create Repository through github website, it should have the same name as the local repository created
+
+# 6 Connect to the Repository
+git remote add orgin https://github.com/user_name/folder_name.git (replace user_name and folder_name with your git username and local reprository name respectively.)
+
+# 7 Pushing files in local repository to Github repository
+git push origin master
+(You will be prompted to enter the user name and password.)
+
+Sometimes there might be an error in that case pull the repository and the try to push!
+
+git pull --rebase orgin master
+git push orgin master
+
+This steps can be followed to crete and add files into the repository
+or steps 3, 4, 6 and 7  can be executed to add files to a existing repository!
