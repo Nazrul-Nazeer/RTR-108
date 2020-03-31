@@ -28,3 +28,5 @@ Contains files of RTR-108 course
 **scp**    -- *Copying file from remote to host or viceaversa securely*
 
 ## Task 2 (Python Training)
+
+All the training data and records are in the Python_Training folder in the git repo. Additionaly a program has been devoloped to test the knowledge of simple python programming.
