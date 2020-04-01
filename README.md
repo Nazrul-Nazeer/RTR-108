@@ -30,3 +30,7 @@ Contains files of RTR-108 course
 ## Task 2 (Python Training)
 
 All the training data and records are in the Python_Training folder in the git repo. Additionaly a program has been devoloped to test the knowledge of simple python programming.
+
+## Task 3 (LaTex Usage)
+
+All the training matirial is stored under the folder **"LaTex_Works"**. Please look at the file **"Ngspice and Geda.pdf"** for the result of the task.
