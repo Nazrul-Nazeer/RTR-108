@@ -34,3 +34,7 @@ All the training data and records are in the Python_Training folder in the git r
 ## Task 3 (LaTex Usage)
 
 All the training matirial is stored under the folder **"LaTex_Works"**. Please look at the file **"Ngspice and Geda.pdf"** for the result of the task.
+
+## Task 4 (Math function approx using series and python)
+
+The file sin_maths.py and Sin_in_python.ipynb are two files associated with this task. Please run these files in python3.
