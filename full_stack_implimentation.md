@@ -34,12 +34,12 @@ DEFINE voltage_divider_1()\
 	CONNECT(net_1, res_1, res_2).\
 	CONNECT(net_2, res_2, vcc_1_N)\
 END_DEFINITION\
-
+\
 BEGIN voltage_divider()\
 	/#The script which handels the circuit is placed here.#/
-	REQUEST VOLTAGE(res_2)
-	REQUEST CURRENT(res_1)
-END_BEGIN
+	REQUEST VOLTAGE(res_2)\
+	REQUEST CURRENT(res_1)\
+END_BEGIN\
 \
 Very simple code and intial phase of language the language has to be complimented with diffrent functionality for better and wider range of circuit representation and simulation.\
 
